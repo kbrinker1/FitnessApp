@@ -14,8 +14,10 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
   templateUrl: 'boot-camp.html',
 })
 export class BootCampPage {
+  BootButton: any;
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
+    this.BootButton = BootCampPage;
   }
 
   ionViewDidLoad() {

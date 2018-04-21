@@ -22,22 +22,22 @@
 
 <ion-content padding>
   <p>
-    <button ion-button color="light" block>Yoga</button>
+    <button ion-button color="light" block  [navPush]="YogaButton">Yoga</button>
   </p>
 
   <p>
-    <button ion-button block>Strength Training</button>
+    <button ion-button block [navPush]="StrengthButton">Strength Training</button>
   </p>
 
   <p>
-    <button ion-button color="secondary" block>Aerobic</button>
+    <button ion-button color="secondary" block [navPush]="AeroButton">Aerobic</button>
   </p>
 
   <p>
-    <button ion-button color="danger" block>Cardio</button>
+    <button ion-button color="danger" block [navPush]="CardioButton">Cardio</button>
   </p>
 
   <p>
-    <button ion-button color="dark" block>Boot Camp</button>
+    <button ion-button color="dark" block [navPush]="BootButton">Boot Camp</button>
   </p>
 </ion-content>

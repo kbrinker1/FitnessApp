@@ -14,8 +14,10 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
   templateUrl: 'cardio.html',
 })
 export class CardioPage {
+  CardioButton: any;
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
+    this.CardioButton = CardioPage;
   }
 
   ionViewDidLoad() {

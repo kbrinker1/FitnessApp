@@ -14,8 +14,10 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
   templateUrl: 'aerobic.html',
 })
 export class AerobicPage {
+  AeroButton: any;
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
+    this.AeroButton = AerobicPage;
   }
 
   ionViewDidLoad() {

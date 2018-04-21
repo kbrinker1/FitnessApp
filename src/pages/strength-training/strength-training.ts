@@ -14,8 +14,10 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
   templateUrl: 'strength-training.html',
 })
 export class StrengthTrainingPage {
+  StrengthButton: any;
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
+    this.StrengthButton = StrengthTrainingPage;
   }
 
   ionViewDidLoad() {

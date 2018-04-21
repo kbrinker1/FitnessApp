@@ -14,8 +14,9 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
   templateUrl: 'yoga.html',
 })
 export class YogaPage {
-
+YogaButton: any;
   constructor(public navCtrl: NavController, public navParams: NavParams) {
+    this.YogaButton = YogaPage;
   }
 
   ionViewDidLoad() {
@@ -23,3 +24,10 @@ export class YogaPage {
   }
 
 }
+
+// export class YourPageName {
+//   YourFancyButton: any;
+  
+//   constructor(){
+//   this.YourFancyButton = YOURPAGE;
+//   }

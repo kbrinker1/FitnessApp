@@ -6,11 +6,23 @@ import { StatusBar } from '@ionic-native/status-bar';
 
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
+import { YogaPage } from '../pages/yoga/yoga';
+import { AerobicPage} from '../pages/aerobic/aerobic';
+import { BootCampPage} from '../pages/boot-camp/boot-camp';
+import { CardioPage } from '../pages/cardio/cardio';
+import { StrengthTrainingPage} from '../pages/strength-training/strength-training';
+
+
 
 @NgModule({
   declarations: [
     MyApp,
-    HomePage
+    HomePage,
+    YogaPage,
+    AerobicPage,
+    BootCampPage,
+    StrengthTrainingPage,
+    CardioPage
   ],
   imports: [
     BrowserModule,
@@ -19,7 +31,12 @@ import { HomePage } from '../pages/home/home';
   bootstrap: [IonicApp],
   entryComponents: [
     MyApp,
-    HomePage
+    HomePage,
+    YogaPage,
+    AerobicPage,
+    BootCampPage,
+    StrengthTrainingPage,
+    CardioPage
   ],
   providers: [
     StatusBar,
